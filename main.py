@@ -2,10 +2,10 @@ import cv2
 import numpy
 import face_recognition
 
-imaron= face_recognition.load_image_file('ImageBasic/bunny.jpeg')
+imaron= face_recognition.load_image_file('ImageBasic/raina.jpg')
 imaron=cv2.cvtColor(imaron,cv2.COLOR_BGR2RGB)
 
-imates= face_recognition.load_image_file('ImageBasic/phani.jpeg')
+imates= face_recognition.load_image_file('ImageBasic/sachin.jpg')
 imates=cv2.cvtColor(imates,cv2.COLOR_BGR2RGB)
 
 faceLoc=face_recognition.face_locations(imaron)[0]
